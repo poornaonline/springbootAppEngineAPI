@@ -1,0 +1,7 @@
+package com.poornajay.appenginecloudsql.dao
+
+import org.springframework.data.repository.CrudRepository
+
+interface UserRepository: CrudRepository<User, Int> {
+
+}
